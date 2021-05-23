@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+	<head>
+		<title>Flashcards</title>
+	<script src="myscript.js"></script>
+	</head>
+	<body>
+		<br/>
+		<center>
+			<h1 id="demo">
+				<script>
+					var num1 = Math.floor(Math.random() * 10) + 1;
+					var num2 = Math.floor(Math.random() * 10) + 1;
+					document.write(num1 + " + " + num2);
+					var correctAnswer = num1 + num2;
+				</script>
+			</h1>
+			<p>Please enter your answer:</p>
+			<input id="answer">
+			<button type="Button" onclick="addition()">Submit</button>
+			<button type="Button" onclick="window.location.reload()">Get a new card</button>
+			<br/><br/>
+			<p id="output"></p>
+		</center>
+		<script>
+		</script>
+	</body>
+</html>
